@@ -7,7 +7,7 @@
     "url": "https://github.com/bestlibre/hassio-addons/tree/master/nextcloud",
     "startup": "system",
     "boot": "auto",
-    "ports": {"80/tcp": null},
+    "ports": {"8888/tcp": null},
     "environment": {},
     "map": ["share:rw"],
     "options": {"env_var": [{"name": "NEXTCLOUD_DATA_DIR", "value": "/share/nextcloud/"}]},
